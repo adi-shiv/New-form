@@ -1,0 +1,189 @@
+.modal-body{
+  width: 400px;
+  height: 535px;
+  margin: auto;
+  border: 2px solid black;
+  justify-items: center;
+  text-align: center;
+  border-radius: 2px;
+}
+
+h5 {
+  color:rgb(50, 50, 223);
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 4px;
+} 
+
+.head{  
+  width: 390px;
+  height: 30px;
+  margin: -13px;
+  border: 2px solid black;
+}
+ 
+
+.Name {
+  width: 140px;
+  height: 38px;
+  margin-left: -12px;
+  margin-top: 16px;
+  border: 2px solid black;
+}
+.Name p{
+  margin-top: 4px; ;
+  text-align: center;
+  margin-left: -22px;
+}
+
+.input1{
+    width:247px;
+    border: 2px solid black;
+    height: 38px;
+    padding: 2px;
+    margin-top: -38px;
+    margin-left: 130px; 
+    
+}
+.pass {
+  width: 140px;
+  height: 38px;
+  margin-left: -12px;
+  padding: 2px;
+  text-align: center;
+  margin-top: 2px;
+  border: 2px solid black;
+}
+.pass p{
+  margin-left:4px;
+  
+}
+.input2{
+  width:247px;
+  border: 2px solid black;
+  height: 38px;
+  padding: 2px;
+  margin-top: -38px;
+  margin-left: 130px; 
+  
+}
+
+.Address {
+  width: 140px;
+  height: 85px;
+  margin-left: -12px;
+  padding:2px;
+  margin-top: 2px;
+  border: 2px solid black;
+
+}
+.Address p{
+  margin-left: -2px;
+  margin-top: 20px;
+
+  
+}
+
+.textarea{
+  width: 247px;
+  height: 85px;
+  margin-left: 130px;
+  margin-top: -85px;
+  padding:2px;
+  border: 2px solid black;
+
+}
+
+.Game {
+  width: 140px;
+  height:156px ;
+  margin-top: 2px;
+  margin-left: -12px;
+  border: 2px solid black;
+}
+
+.Game p{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.checkbox{
+  width: 247px;
+  height: 156px;
+  margin-left: 130px;
+  margin-top: -156px;
+  padding:2px;
+  text-align: justify;
+  border: 2px solid black;
+}
+.checkbox .check {
+  margin-left: 27px;
+}
+
+.Gender {
+  width: 140px;
+  height: 38px;
+  border: 2px solid black;
+  margin-left: -12px;
+  margin-top: 2px;
+}
+.Gender p{
+  margin-left: -44px;
+}
+
+
+.radio {
+  width: 247px;
+  height: 38px;
+  margin-left: 130px;
+  margin-top: -38px;
+  border: 2px solid black;
+
+}
+.radio .rad{
+margin-left: -69px;
+}
+
+.Age {
+  width: 140px;
+  height: 38px;
+  margin-left: -12px;
+  margin-top: 2px;
+  border: 2px solid black;
+}
+.input3{
+  width:247px;
+    border: 2px solid black;
+    height: 38px;
+    padding: 2px;
+    margin-top: -38px;
+    margin-left: 130px;
+}
+
+.input3 .select{
+   margin-left: -123px;
+}
+
+.file {
+  width: 390px;
+  height: 38px;
+  margin-top:2px ;
+  margin-left: -12px;
+  padding: 2px;
+  border: 2px solid black;
+}
+
+.box {
+  width: 390px;
+  height: 48px;
+  margin-top: 2px;
+  margin-left:-12px ;
+  padding: 2px;
+  border: 2px solid black;
+} 
+
+.box .button{
+  margin-left: -40px;
+  
+}

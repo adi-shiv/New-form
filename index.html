@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Click ME
+  </button>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="head">
+            <h5>Form</h5>
+          </div>
+
+          <div class="Name">
+            <p>Enter Name</p>
+          </div>
+
+          <div class="input1">
+            <input type="text" id="text">
+          </div>
+
+          <div class="pass">
+            <p>Enter Password</p>
+
+          </div>
+          <div class="input2">
+
+            <input type="text" id="text">
+          </div>
+
+          <div class="Address">
+            <p>Enter Address</p>
+          </div>
+          <div class="textarea">
+
+            <textarea cols="22" rows="3"></textarea>
+          </div>
+
+          <div class="Game">
+            <p>Select Game</p>
+          </div>
+
+          <div class="checkbox">
+            <div class="check">
+              <input type="checkbox" name="Hokey"><label for="Hokey">Hokey</label><br>
+              <input type="checkbox" name="Football"><label for="Football">Football</label><br>
+              <input type="checkbox" name="Badminton"><label for="Badminton">Badminton</label><br>
+              <input type="checkbox" name="Cricket"><label for="Cricket">Cricket</label><br>
+              <input type="checkbox" name="volleyball"><label for="valleyball">valleyball</label>
+
+            </div>
+
+          </div>
+
+          <div class=" Gender">
+            <p>Gender</p>
+          </div>
+          <div class="radio">
+            <div class="rad">
+              <input type="radio" name="Gender"><label for="Gender">Male</label>
+              <input type="radio" name="Gender"><label for="Gender">Female</label>
+            </div>
+          </div>
+
+          <div class="Age">
+            <p>Select ur Age</p>
+          </div>
+
+          <div class="input3">
+            <div class="select">
+              <label for="Age"></label><select name="Age">
+                <option value="Age">Select</option>
+                <option value="Age">+18</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="file">
+            <label for="file-btn"></label> <input type="file">
+          </div>
+
+          <div class="box">
+            <div class="button">
+              <!-- <button type="button" class="btn btn-primary">Click Me</button> -->
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Reset</button>
+              <button onclick="myFunction()" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit Form</button>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      alert("Succuessfully submitted!");
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
